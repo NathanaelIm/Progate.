@@ -1,0 +1,72 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+header {
+  background-color: rgb(58, 13, 5);
+  height: 90px;
+  color: white;
+}
+.header-logo {
+  float: left;
+  font-size: 34px;
+  padding: 20px 30px;
+}
+.header-list li {
+  float: left;
+  padding: 33px 10px;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  color: rgb(81, 8, 150);
+  text-align: center;
+  background-size: cover;
+  background-image: url(./asset/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+}
+.top-wrapper img {
+  width: 30%;
+}
+.top-wrapper span {
+  color: red;
+}
+.about {
+  padding-top: 25px;
+  padding-bottom: 35px;
+  text-align: center;
+  background-color: gray;
+  height: 150px;
+}
+.about h1 {
+  padding-bottom: 10px;
+}
+.project {
+  height: 500px;
+  text-align: center;
+}
+
+.contents-wrapper {
+  display: flex;
+}
+
+.contents-item img {
+  width: 75%;
+  flex: auto;
+}
+@media (max-width: 1000px) {
+  .contents-wrapper {
+    flex-wrap: wrap;
+  }
+  .contents-item img {
+    width: 25%;
+    margin: 0 auto;
+  }
+}
